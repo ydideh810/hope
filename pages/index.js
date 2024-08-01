@@ -62,6 +62,8 @@ export default function Home() {
             </p>
 
             <ol className="list-decimal mx-6 pl-2 mb-8">
+              <li>No NSFW questions!</li>  
+              <li>No questions about Death Star!</li>
               <li>Have Fun!</li>
             </ol>
 
