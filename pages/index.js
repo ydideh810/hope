@@ -45,16 +45,16 @@ export default function Home() {
   return (
     <div className="max-w-screen-md bg-white mx-auto m-10 p-10 rounded-lg">
       <Head>
-        <title>Replicate + Next.js + FLAN-T5</title>
+        <title>CosmoSpeak</title>
       </Head>
 
-      {/* Uncomment the following lines if you want to display a welcome dialog
+      { Uncomment the following lines if you want to display a welcome dialog
       {showDialog && (
         <dialog
           className="fixed w-screen h-screen bg-black bg-opacity-50 inset-0 flex justify-center items-center z-50"
         >
           <article className="content-container bg-white p-8 overflow-y-scroll max-h-screen">
-            <h4 className="mb-4">Welcome to ...</h4>
+            <h4 className="mb-4">Welcome to CosmoSpeak</h4>
 
             <p className="mb-8">
               By using this model, you agree to the following terms and
@@ -62,7 +62,7 @@ export default function Home() {
             </p>
 
             <ol className="list-decimal mx-6 pl-2 mb-8">
-              <li>...</li>
+              <li>Have Fun!</li>
             </ol>
 
             <button
@@ -77,14 +77,14 @@ export default function Home() {
       */}
 
       <h1 className="text-3xl text-center p-10">
-        Replicate + Next.js + FLAN-T5
+        CosmoSpeak
       </h1>
 
       <form onSubmit={handleSubmit} className="flex">
         <input
           type="text"
           name="prompt"
-          placeholder="Ask a question"
+          placeholder="how do they put stuff into rockets?"
           className="flex-grow"
         />
         <button type="submit" className="p-3 px-6 bg-black text-white">
