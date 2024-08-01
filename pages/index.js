@@ -48,7 +48,7 @@ export default function Home() {
         <title>CosmoSpeak</title>
       </Head>
 
-      { Uncomment the following lines if you want to display a welcome dialog
+     
       {showDialog && (
         <dialog
           className="fixed w-screen h-screen bg-black bg-opacity-50 inset-0 flex justify-center items-center z-50"
@@ -74,7 +74,7 @@ export default function Home() {
           </article>
         </dialog>
       )} 
-      */}
+      
 
       <h1 className="text-3xl text-center p-10">
         CosmoSpeak
