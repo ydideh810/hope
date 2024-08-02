@@ -79,7 +79,7 @@ export default function Home() {
       )} 
       
 
-      <h1 className="text-3xl text-center p-10" style={{ fontFamily: 'Zen Dots' }}>
+      <h1 className="text-3xl text-center p-10 text-red" style={{ fontFamily: 'Zen Dots' }}>
         COSMOSPEAK
       </h1>
 
