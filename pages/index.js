@@ -46,7 +46,7 @@ export default function Home() {
     
 <div className="max-w-screen-md bg-white mx-auto m-10 p-10 rounded-lg">
       <Head>
-        <h1 style={{ fontFamily: 'Zen Dots, cursive' }}>CosmoSpeak</h1>
+        <title style={{ fontFamily: 'Zen Dots, cursive' }}>CosmoSpeak</title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" />
       </Head>
      
