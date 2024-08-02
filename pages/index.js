@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     
-<div className="max-w-screen-md bg-white mx-auto m-10 p-10 rounded-lg">
+<div className="max-w-screen-md bg-black mx-auto m-10 p-10 rounded-lg">
       <Head>
         <title>CosmoSpeak</title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" />
