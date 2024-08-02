@@ -7,7 +7,7 @@ export default function Document() {
         <style>
           {`
             body {
-              background-image: url('/tilemaker-y7w5qqrsynbhrinkgjt5imj2oa.png'); 
+              background-image: url('bigspace.png'); 
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -15,7 +15,7 @@ export default function Document() {
           `}
         </style>
       </Head>
-      <body className="bg-gray-200">
+      <body className="bg-llama bg-cover bg-center bg-no-repeat">
         <Main />
         <NextScript />
       </body>
