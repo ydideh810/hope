@@ -46,7 +46,7 @@ export default function Home() {
     
 <div className="max-w-screen-md bg-white mx-auto m-10 p-10 rounded-lg">
       <Head>
-        <title style={{ fontFamily: 'Zen Dots, cursive' }}>CosmoSpeak</title>
+        <title>CosmoSpeak</title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" />
       </Head>
      
@@ -79,8 +79,8 @@ export default function Home() {
       )} 
       
 
-      <h1 className="text-3xl text-center p-10">
-        CosmoSpeak
+      <h1 className="text-3xl text-center p-10" style={{ fontFamily: 'Zen Dots' }}>
+        COSMOSPEAK
       </h1>
 
       <form onSubmit={handleSubmit} className="flex">
