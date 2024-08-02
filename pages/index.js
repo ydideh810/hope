@@ -83,14 +83,14 @@ export default function Home() {
         COSMOSPEAK
       </h1>
 
-      <form onSubmit={handleSubmit} className="flex">
+      <form onSubmit={handleSubmit} className="flex text-red-700">
         <input
           type="text"
           name="prompt"
           placeholder="how do they put stuff into rockets?"
-          className="flex-grow"
+          className="flex-grow text-red-700"
         />
-        <button type="submit" className="p-3 px-6 bg-black text-white">
+        <button type="submit" className="p-3 px-6 bg-black text-red-700">
           Go!
         </button>
       </form>
