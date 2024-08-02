@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      llama: "url('https://i.postimg.cc/yYHg04Gt/bigspace.png')",
+      llama: "url('/bigspace.png')",
     },
     extend: {},
   },
