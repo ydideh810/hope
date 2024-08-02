@@ -1,5 +1,10 @@
 import { useState } from "react";
 import Head from "next/head";
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  font-family: 'Zen Dots', cursive;
+`;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -47,11 +52,7 @@ export default function Home() {
 <div className="max-w-screen-md bg-white mx-auto m-10 p-10 rounded-lg">
       <Head>
         <title>CosmoSpeak</title>
-    <style>{`
-        body {
-          font-family: 'Zen Dots', cursive;
-        }
-      `}</style>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" />
       </Head>
      
       {showDialog && (
