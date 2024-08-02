@@ -10,7 +10,6 @@ export default function Document() {
               background-image: url('bigspace.png'); 
               background-size: cover;
               background-position: center;
-              background-repeat: no-repeat;
             }
           `}
         </style>
