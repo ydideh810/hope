@@ -15,7 +15,7 @@ export default function Document() {
           `}
         </style>
       </Head>
-      <body className="bg-llama bg-cover bg-center bg-no-repeat">
+      <body className="bg-llama bg-cover bg-center">
         <Main />
         <NextScript />
       </body>
