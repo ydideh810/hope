@@ -7,7 +7,7 @@ export default function Document() {
         <style>
           {`
             body {
-              background-image: url('/bigspace.png'); 
+              background-image: url('/tilemaker-y7w5qqrsynbhrinkgjt5imj2oa.png'); 
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
