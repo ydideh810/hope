@@ -7,7 +7,7 @@ export default function Document() {
         <style>
           {`
             body {
-              background-image: url('/path/to/your/image.jpg'); /* Replace with your image path */
+              background-image: url('https://i.postimg.cc/yYHg04Gt/bigspace.png'); 
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
