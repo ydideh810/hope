@@ -51,7 +51,7 @@ export default function Home() {
      
       {showDialog && (
         <dialog
-          className="fixed w-screen h-screen bg-black bg-opacity-50 inset-0 flex justify-center items-center z-50"
+          className="fixed w-screen h-screen bg-white bg-opacity-50 inset-0 flex justify-center items-center z-50"
         >
           <article className="content-container bg-white p-8 overflow-y-scroll max-h-screen">
             <h4 className="mb-4">Welcome to CosmoSpeak</h4>
