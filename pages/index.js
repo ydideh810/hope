@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     
-<div className="max-w-screen-md bg-black mx-auto m-10 p-10 rounded-lg">
+<div className="max-w-screen-md bg-white mx-auto m-10 p-10 rounded-lg border-2 border-red-700">
       <Head>
         <title>CosmoSpeak</title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" />
@@ -69,7 +69,7 @@ export default function Home() {
             </ol>
 
             <button
-              className="p-3 px-6 bg-black text-white"
+              className="p-3 px-6 bg-black text-red-700"
               onClick={() => setShowDialog(false)}
             >
               I Agree
