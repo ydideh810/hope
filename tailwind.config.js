@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      llama: "url('/tilemaker-y7w5qqrsynbhrinkgjt5imj2oa.png')",
+      llama: "url('https://i.postimg.cc/yYHg04Gt/bigspace.png')",
     },
     extend: {},
   },
