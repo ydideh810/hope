@@ -46,14 +46,8 @@ export default function Home() {
     
   <div className="max-w-screen-md bg-white mx-auto m-10 p-10 rounded-lg">
     <Head>
-      <title>CosmoSpeak</title>
-      <style>{`
-        body {
-          font-family: 'Zen Dots', cursive;
-        }
-      `}</style>
-    </Head>
     <h1 style={{ fontFamily: 'Zen Dots, cursive' }}>CosmoSpeak</h1>
+    </Head>
   </div>
 );
      
