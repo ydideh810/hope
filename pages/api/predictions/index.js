@@ -1,6 +1,6 @@
 // This is pinned to a specific version https://replicate.com/daanelson/flan-t5
 const modelVersion =
-  "04e422a9b85baed86a4f24981d7f9953e20c5fd82f6103b74ebc431588e1cec8";
+  "fd8ed7161c14133273cfa8fdc60a10143a0107a7d4adeb495ba98f22257d965e";
 
 export default async function handler(req, res) {
   const response = await fetch("https://api.replicate.com/v1/predictions", {
