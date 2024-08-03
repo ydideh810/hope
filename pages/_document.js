@@ -7,7 +7,7 @@ export default function Document() {
         <style>
           {`
             body {
-              background-image: url('global.png'); 
+              background-image: url('globalmod.png'); 
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
