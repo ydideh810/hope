@@ -48,6 +48,7 @@ export default function Home() {
       <Head>
         <title>CosmoSpeak</title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" />
+     <link rel="icon" href="https://i.postimg.cc/28X3KLWt/circle.png" type="image/x-icon" />
       </Head>
      
       {showDialog && (
