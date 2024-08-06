@@ -65,9 +65,15 @@ export default function Home() {
 
             <ol className="list-decimal mx-6 pl-2 mb-8">
               <li>No NSFW questions!</li>  
-              <li>No questions about Death Star!</li>
+              <li>No questions about the Death Star!</li>
               <li>Have Fun!</li>
             </ol>
+                <button
+              className="p-3 px-6 bg-black text-red-700"
+              onClick={() => setShowDialog(false)}
+            >
+              I Agree
+            </button>
 
             <button
               className="p-3 px-6 bg-black text-red-700"
