@@ -68,12 +68,6 @@ export default function Home() {
               <li>No questions about the Death Star!</li>
               <li>Have Fun!</li>
             </ol>
-                <button
-              className="p-3 px-6 bg-black text-red-700"
-              onClick={() => setShowDialog(false)}
-            >
-              I Agree
-            </button>
 
             <button
               className="p-3 px-6 bg-black text-red-700"
